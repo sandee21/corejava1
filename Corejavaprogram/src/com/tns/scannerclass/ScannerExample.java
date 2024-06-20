@@ -6,17 +6,17 @@ import java.util.Scanner;
 
 public class ScannerExample {
 	
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+   public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
 		
 			System.out.println("enter you are name");
-			    String name=sc.nextLine();
+				String name=sc.nextLine();
 			    
 			    System.out.println("enter the student id");
 			    int sid=sc.nextInt();
 			    
 			    System.out.println("enter the percentage");
-			float  per =sc.nextFloat();
+		float per=sc.nextFloat();
 		
 			    
 
